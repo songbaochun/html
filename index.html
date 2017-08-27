@@ -1,35 +1,113 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<style type="text/css">
-			div{
-				margin: 0;
-				padding: 0;
-			}
-			#image{
-				width: -webkit-fill-available;
+			div {
+				width: 800px;
+				margin: 0 auto;
 				
-				background-image: url(img/HomeBg.jpg);
+				padding: 10px 30px 10px 30px;
+			
+			}
+			
+			#ziq {
+				text-indent: 35px;
 				
 			}
 			
+			h2 {
+				width: 800px;
+				margin: 0 auto;
+				text-align: center;
+				border-bottom: thick solid #030303;
+			}
+			
+			h1 {
+				text-align: center;
+			}
+			
+			
+			
+			#img {
+				text-align: center;
+			}
 		</style>
 	</head>
+
 	<body>
-		<div id="home">
-			<div id="daohuanglan">
-				<div id="image">
-				     <button>首页</button>	
-				     <button>每日作业</button>	
-				     <button>个人简介</button>
-				     <button>设置</button>
-				    
-				</div>
+		<div>
+			<h1>个人简历</h1>
+			<h2>个人简介</h2>
+			<div id="my">
+				<span>姓名：宋宝春</span><br/>
+				<span>性别：男</span><br/>
+				<span>出生日期：1996年08月07日</span><br/>
+				<span>婚姻状况：未婚</span><br/>
+				<span>户籍所在地：山西省大同市</span><br/>
+				<span>现居城市：北京市</span><br/>
+				<span>联系方式：18201303038</span><br/>
+				<span>电子邮箱：2533926477@qq.com</span>
 			</div>
-			
+
+			<h2>职业技能</h2>
+			<div>
+				<ul>
+					<li>熟练使用Android Studio开发工具</li>
+					<li>熟练Android系统的体系架构，熟悉AndroidSDK</li>
+					<li>熟悉View和ViewGroup的事件分发机制，熟悉使用自定义View</li>
+					<li>熟练掌握Android UI开发常用布局、框架；能够熟练编写自定义控件和常用动画效果</li>
+					<li>熟练掌握Android消息机制、多线程机制等</li>
+					<li>掌握常用适配器组件的优化方法</li>
+					<li>掌握SQLite数据库的使用</li>
+					<li>熟练掌握Android一些框架的使用，如：volley、gson</li>
+					<li>掌握使用第三方服务平台 百度地图api、ShareSDK三方登录、分享及短信验证等</li>
+					<li>了解掌握Android和Web的交互，了解HTML5</li>
+					<li>熟练掌握上拉刷新和下拉加载的原理和实现方式</li>
+					<li>熟悉适配器组件呈现不同item样式的实现方式</li>
+					<li>掌握Android源码中常用的设计模式，具有良好的编程思想和习惯</li>
+				</ul>
+			</div>
+
+			<h2>项目经验</h2>
+			<div id="jy">
+				<p>项目名称：环球微信</p>
+				<p>开发工具：Android Studio</p>
+				<p>项目描述：利用第三方环信API开发的一个聊天软件。</p>
+				<p>主要技术点：</p>
+				<ol>
+					<li>使用FrameLayout+RadioGroup搭建应用的结构框架，点击底部Tab标签进行模块切换；</li>
+					<li>实现自定义适配器组件的上拉刷新和下拉加载，解决ScrollView的滑动冲突事件</li>
+					<li>网络图片异步加载以及三级缓存的实现</li>
+					<li>实现第三方QQ、微信登录</li>
+
+				</ol>
+				<p>职责描述：</p>
+				<ol>
+					<li>协助项目搭建应用主题框架，完善项目设计报告以及模块代码编写</li>
+					<li>使用集成ShareSDK实现三方登录和验证码的获取</li>
+					<li>实现视频通话、语音通话、图片文字发送、群组功能等</li>
+					<li>项目测试和Bug调试</li>
+					<li>相关文档整理书写</li>
+
+				</ol>
+				<p>项目名称：看你有多色</p>
+				<p><a href="http://127.0.0.1:8020/%E7%9C%8B%E4%BD%A0%E6%9C%89%E5%A4%9A%E8%89%B2/index.html">看你有多色</a></p>
+				<p>项目名称：贪吃蛇</p>
+				<p><a href="http://127.0.0.1:8020/20170818%E8%B4%AA%E5%90%83%E8%9B%87/index.html">贪吃蛇</a></p>
+				<p>项目名称：时钟</p>
+				<p><a href="http://127.0.0.1:8020/20170823%E9%92%9F%E8%A1%A8/newBiao.html">贪吃蛇</a></p>
+				<p>项目名称：页面纵向切换</p>
+				<p><a href="http://127.0.0.1:8020/20170824%E4%B8%83%E5%A4%95%E8%A1%A8%E8%A1%A8%E7%99%BD/index.html">贪吃蛇</a></p>
+			</div>
+
+			<h2>自我评价</h2>
+			<div id="ziq">
+				为人诚实，原则性强，对待任何事认真、积极，逻辑思维能力强，责任感强，工作严谨、积极主动，有较强的敬业精神及执行能力，有良好的团队协作意识，对移动开发行业充满热情，有不断提升自己的学习意识。善于在工作中发现问题、解决问题，有较强的分析能力
+			</div>
 		</div>
-		
 	</body>
+
 </html>
